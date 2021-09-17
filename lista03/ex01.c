@@ -1,5 +1,5 @@
 /* 
-Fernanda Mendes Gomes (16/09/2021) // (16/09/2021)
+Fernanda Mendes Gomes (16/09/2021) // (17/09/2021)
 Faça um procedimento que recebe as 3 notas de um aluno por parâmetro e uma letra. 
 Se a letra for ‘A’,o procedimento calcula e escreve a média aritmética das notas do aluno, se for ‘P’, calcula e escreve a sua média ponderada (pesos: 5, 3 e 2). 
 Faça um programa que leia 3 notas de N alunos e acione o procedimento para cada aluno. (N deve ser lido do teclado)
@@ -13,7 +13,7 @@ int main (void)
     char opcao; 
     int num_alunos = 0; 
 
-    // ler o valor de  N (nuemro de alunos)
+    // ler o valor de  N (numero de alunos)
     printf("Digite o numero de alunos: "); 
     scanf ("%d", &num_alunos); 
 
