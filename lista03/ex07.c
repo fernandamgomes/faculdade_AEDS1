@@ -46,14 +46,5 @@ int main (void)
 // Funcao que verifica se o numero e positivo ou negativo
 bool positivo (int num)
 {
-    // se o numero for maior que zero retornar positivo
-    if (num > 0)
-    {
-        return true; 
-    }
-    // se for menor retornar negativo 
-    else if (num < 0)
-    {
-        return false; 
-    }
+    return(num>0); 
 }
